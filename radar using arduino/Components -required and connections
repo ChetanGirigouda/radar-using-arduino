@@ -1,0 +1,31 @@
+## components required 
+1 x Arduino Uno R3 SMD Compatible Development Board with Cable
+
+1 x Ultrasonic Module HC-SR04 Distance Measuring Sensor
+
+1 x Tower Pro 9G Micro Servo Motor
+
+1 x Combo of 3 type Jumper Cables | F-F | F-M | M-M
+
+## components connections
+
+Here is the table for component connections:  
+
+| **Component**                                       | **Pin Name**         | **Connected To (Arduino)**|
+|-----------------------------------------------------|----------------------|---------------------------|
+| **Ultrasonic Sensor (HC-SR04)**                     | VCC                  | 5V                        |
+|                                                     | GND                  | GND                       |
+|                                                     | Trig                 | Digital Pin 10            |
+|                                                     | Echo                 | Digital Pin 11            |
+| **Servo Motor (Tower Pro 9G)**                      | VCC (Red)            | 5V                        |
+|                                                     | GND (Brown/Black)    | GND                       |
+|                                                     | Signal(Orange/Yellow)| Digital Pin 12            |
+| **Arduino Uno R3 SMD**                              | 5V                   | Power Supply for Components |
+|                                                     | GND                  | Ground for Components     |
+|                                                     | Digital Pins 10, 11  | Ultrasonic Sensor         |
+|                                                     | Digital Pin 12       | Servo Motor               |
+
+
+
+
+.
