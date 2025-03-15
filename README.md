@@ -1,4 +1,4 @@
-# Ultrasonic Radar System with Arduino and Processing
+# Radar system using Arduino
 
 ## Overview
 This project is an **Ultrasonic Radar System** that uses an **Arduino Uno**, an **HC-SR04 Ultrasonic Sensor**, and a **Tower Pro 9G Micro Servo Motor** to detect objects in its vicinity. The system visualizes the detected objects on a **radar-like display** using the **Processing IDE**.
